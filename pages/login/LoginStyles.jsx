@@ -6,10 +6,13 @@ const styles = StyleSheet.create({
         flex:1,
         
     },
+    imagebg:{
+        flex:1,    
+    },
     form:{
         flex:1,
-        paddingTop:250 ,
-        backgroundColor:"rgba(0,0,0,0.2)",
+        paddingTop:200 ,
+        // backgroundColor:"rgba(0,0,0,0.2)",
     },
     header:{
         alignItems:'center',
@@ -18,16 +21,13 @@ const styles = StyleSheet.create({
     container:{
         paddingTop:30,
         paddingHorizontal:30,
-        rowGap:12
+        rowGap:8
     },
     input: {
-        backgroundColor:'#fff',
-        borderRadius:6,
-        paddingVertical:6,
-        paddingHorizontal:8
+
     },
     footer:{
-        marginTop:40,
+        marginTop:20,
         paddingHorizontal:30,
         justifyContent:'center'
     }
