@@ -3,7 +3,8 @@ import Header from "../Header/Header";
 import styles from "./DefaultStyle";
 import { createContext,useEffect,useState } from "react";
 import AsyncStorage from "@react-native-async-storage/async-storage";
-const TotalQuantityCart = createContext()
+import TotalQuantityCart from "./CartContext";
+// const TotalQuantityCart = createContext()
 function DefaultLayout({
     children
 }) {
@@ -43,5 +44,5 @@ function DefaultLayout({
         
     </View> );
 }
-export {TotalQuantityCart}
+// export {TotalQuantityCart}
 export default DefaultLayout;

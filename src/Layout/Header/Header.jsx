@@ -4,7 +4,8 @@ import { useNavigation } from "@react-navigation/native";
 import MaterialIcons from '@expo/vector-icons/MaterialIcons';
 import { Badge } from 'react-native-paper';
 import { useContext } from "react";
-import { TotalQuantityCart } from "../DefaultLayout/DefaultLayout";
+import TotalQuantityCart from "../DefaultLayout/CartContext";
+// import { TotalQuantityCart } from "../DefaultLayout/DefaultLayout.jsx";
 function Header() {
     const navigate = useNavigation()
     const {totalQuantityCart} = useContext(TotalQuantityCart);
